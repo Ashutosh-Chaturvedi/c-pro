@@ -25,12 +25,7 @@ int main(){
     while(temp > 0){
         int digit = temp % 10;
         int product = power(digit, count);
-        // printf("The digit is %d and the power is %d \n", digit, count);
-        // printf("The product is %d \n" , product);
         sum = sum + power(digit, count);
-        // printf("The sum if %d", sum);
-        // printf("The product is %d \n" , pow(digit, count));
-        // printf("The sum is %d \n" , sum);
         temp = temp / 10;
     }
     printf("The sum if %d \n", sum);
